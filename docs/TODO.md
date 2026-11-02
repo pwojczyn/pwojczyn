@@ -21,33 +21,41 @@
       idempotency, workflow YAML and absence of obvious secrets.
 - [x] Document maintenance, account-level manual steps and rollback.
 - [x] Write this TODO list and the implementation log.
+- [x] Publish the profile repository and verify the public README.
+- [x] Run the statistics workflow manually and confirm it succeeds without
+      creating an unnecessary commit.
+- [x] Verify desktop, tablet, mobile, light, dark, English and Polish rendering
+      with Playwright.
+- [x] Save the verification report and screenshots in `docs/`.
+- [x] Replace the public surname on the banner with the `pwojczyn` handle.
+- [x] Update the `NieboGuard-Community` description and topics through the API.
 
 ## In Progress
 
-- [ ] Final visual verification at desktop, tablet and mobile widths.
-- [ ] Publish commits and verify the public profile.
+- [ ] Refresh the committed screenshots after the banner change and GitHub’s
+      5-minute image cache expires.
 
 ## Pending
 
-- [ ] Run the `Update profile statistics` workflow manually after publication.
-- [ ] Confirm the scheduled workflow is enabled and the first run succeeds.
-- [ ] Verify the profile README is rendered at
-      <https://github.com/pwojczyn/pwojczyn>.
-- [ ] Verify both language versions from the public profile.
-- [ ] Record screenshots or a static-validation note in `docs/RENDERING.md`.
+- [ ] Confirm the weekly schedule remains enabled (the workflow is active; the
+      first runs were manual dispatches).
 
 ## Manual configuration (requires the `user` scope or web UI)
 
-- [ ] Set display name to `pwojczyn` (or your preferred public name).
-- [ ] Set bio to
+- [x] Display name is already `pwojczyn`.
+- [ ] Review the bio. It was edited externally during the task to a technology
+      stack summary; the proposed value is
       `Building NieboGuard | Real-Time Systems, Geospatial Data, Cloud & AI | Open Source`.
-- [ ] Set website to `https://nieboguard.pl/`.
-- [ ] Review public social links; add only confirmed, public profiles.
+      Keep the current version if it is intentional.
+- [ ] Set website to `https://nieboguard.pl/` (currently `https://nullexa.eu/`).
+- [ ] Review public social links; add only confirmed, public profiles. The
+      Telegram/Facebook/Instagram links added by a concurrent edit were removed
+      because the Community `data/social-links.json` marks them NOT_VERIFIED.
 - [ ] Pin `pwojczyn/pwojczyn` and `pwojczyn/NieboGuard-Community`.
 - [ ] Unpin repositories that no longer represent current work.
-- [ ] Apply the recommended topics/description to `NieboGuard-Community`
-      through the API or UI; keep the “synthetic data / educational” caveat.
-- [ ] Do **not** add `cloudflare` as a topic to the community repository unless
+- [x] Apply the recommended topics/description to `NieboGuard-Community`
+      through the API; the “synthetic data / educational” caveat is preserved.
+- [x] Do **not** add `cloudflare` as a topic to the community repository unless
       Cloudflare configuration is actually added there.
 
 ## Optional enhancements
@@ -68,5 +76,11 @@
 - The `NieboGuard-Community` default branch changed from `community/bootstrap`
   to `main`, and a new `main` README was pushed while this profile work was in
   progress. No user work was overwritten and no force push was used.
+- A concurrent commit (`ee08d4a`) added an Explore section and an unverified
+  social-media table to the profile README. The Explore links were kept; the
+  social table was removed because the Community `data/social-links.json` marks
+  those profiles NOT_VERIFIED.
+- The public GitHub bio was changed externally during the task to a technology
+  stack summary. This work did not modify account settings.
 - The community description and topics were updated through the API in this
   task; visibility, default branch and repository content were not changed.

@@ -83,14 +83,12 @@ hard-code them.
    labels aligned.
 3. If an image is added, commit it under `assets/` and give it a descriptive
    `alt` text. Do not hotlink external images.
-4. If the banner changes, edit `assets/banner.svg`, then regenerate the PNG:
+4. If the banner changes, edit `assets/banner.svg`, then render the PNG at
+   2000×840 in Chromium (for example with Playwright) so gradients and fonts
+   match the browser.
 
-   ```bash
-   magick -background none assets/banner.svg \
-     -resize 2000x840 -depth 8 -strip assets/banner.png
-   ```
-
-5. Verify the rendered result before pushing (see below).
+   GitHub’s raw image endpoint caches files for about five minutes. Bump the
+   `?v=N` query on the banner `<img>` in both README files when replacing it.
 
 ## Verification checklist
 

@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/banner.svg" alt="pwojczyn — software development, real-time systems, geospatial data and AI. Building NieboGuard." width="100%">
+  <img src="assets/banner.svg?v=2" alt="pwojczyn — software development, real-time systems, geospatial data and AI. Building NieboGuard." width="100%">
 </div>
 
 <p align="center">
