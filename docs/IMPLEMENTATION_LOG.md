@@ -179,6 +179,8 @@
 | `ee08d4a` | Concurrent external edit (preserved in history) |
 | `f6fb869` | Restore featured project; remove unverified social links |
 | `1b47bfb` | Use `pwojczyn` handle on the banner |
+| `b24c0c2` | Final status notes and banner cache-busting query |
+| `9e94ddf` | Refreshed screenshots for the `pwojczyn` banner |
 
 ## Open issues
 

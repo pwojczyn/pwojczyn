@@ -31,7 +31,7 @@ curl -sS -L https://nieboguard.pl/
 | Field | Observed value |
 | :--- | :--- |
 | Login | `pwojczyn` |
-| Display name | `pwojczyn` (not a real display name) |
+| Display name | `pwojczyn` (account handle; public preference) |
 | Public bio | `Javascript, NodeJS, Java, Spring, Hibernate, MySQL, HTML, CSS, PHP, Linux, Apache, Nginx, Vert.x, MongoDB` |
 | Website field | `https://nullexa.eu/` |
 | Company / social links | none |
@@ -193,7 +193,7 @@ as the project's own mark, with its source recorded in
 | Priority | Gap | Impact |
 | :--- | :--- | :--- |
 | P0 | No profile README | The profile has no narrative or entry point |
-| P0 | Bio and website are outdated | Visitors see a generic technology list and `nullexa.eu`, not NieboGuard |
+| P0 | Bio and website are outdated | At audit time visitors saw a generic technology list and `nullexa.eu`; the bio was later changed externally, the website still needs attention |
 | P1 | Pinned repositories are old 2017 projects | The most relevant work is not the first thing visitors see |
 | P1 | No automated, trustworthy statistics | Any manual numbers would drift or be invented |
 | P2 | Many public repos lack descriptions/topics | Repository tab looks unfinished |

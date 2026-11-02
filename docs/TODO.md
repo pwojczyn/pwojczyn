@@ -29,16 +29,17 @@
 - [x] Save the verification report and screenshots in `docs/`.
 - [x] Replace the public surname on the banner with the `pwojczyn` handle.
 - [x] Update the `NieboGuard-Community` description and topics through the API.
+- [x] Refresh the committed screenshots after the banner change.
+- [x] Confirm the weekly schedule remains enabled (the workflow is active; the
+      first runs were manual dispatches).
 
 ## In Progress
 
-- [ ] Refresh the committed screenshots after the banner change and GitHub’s
-      5-minute image cache expires.
+- None.
 
 ## Pending
 
-- [ ] Confirm the weekly schedule remains enabled (the workflow is active; the
-      first runs were manual dispatches).
+- None. Remaining items are manual account configuration.
 
 ## Manual configuration (requires the `user` scope or web UI)
 
