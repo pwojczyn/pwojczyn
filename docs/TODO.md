@@ -38,7 +38,7 @@
 
 ## Manual configuration (requires the `user` scope or web UI)
 
-- [ ] Set display name to `Piotr Wojczyński`.
+- [ ] Set display name to `pwojczyn` (or your preferred public name).
 - [ ] Set bio to
       `Building NieboGuard | Real-Time Systems, Geospatial Data, Cloud & AI | Open Source`.
 - [ ] Set website to `https://nieboguard.pl/`.

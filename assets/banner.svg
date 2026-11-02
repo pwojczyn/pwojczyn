@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="1000" height="420" role="img" aria-labelledby="bannerTitle bannerDesc">
-  <title id="bannerTitle">Piotr Wojczyński — Software Development, Real-Time Systems, Geospatial Data and AI</title>
-  <desc id="bannerDesc">Dark navy banner with a radar grid, orbit lines, a civilian aircraft silhouette and the text: Building NieboGuard, open aviation and situational awareness tools.</desc>
+  <title id="bannerTitle">pwojczyn — Software Development, Real-Time Systems, Geospatial Data and AI</title>
+  <desc id="bannerDesc">Dark navy banner with a radar grid, orbit lines, a civilian aircraft silhouette and the text pwojczyn and Building NieboGuard, open aviation and situational awareness tools.</desc>
 
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="420" gradientUnits="userSpaceOnUse">
@@ -101,7 +101,7 @@
       <text x="352" y="64" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="10" letter-spacing="2" fill="#5f789f">OPEN AVIATION TOOLS</text>
     </g>
 
-    <text x="64" y="168" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="0.2" fill="#f2f7ff">Piotr Wojczyński</text>
+    <text x="64" y="168" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="82" font-weight="700" letter-spacing="0.6" fill="#f2f7ff">pwojczyn</text>
     <rect x="66" y="192" width="84" height="3" rx="1.5" fill="url(#accent)"/>
 
     <text x="64" y="238" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#c7d6ee">Software Development · Real-Time Systems</text>

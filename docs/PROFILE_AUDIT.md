@@ -52,7 +52,7 @@ curl -sS -L https://nieboguard.pl/
 | Created during this task | **Yes** — public, verified as account `pwojczyn` |
 
 The repository was created only after the authenticated login and the Git author
-identity were confirmed as `pwojczyn` / `Piotr Wojczynski`.
+identity were confirmed as `pwojczyn`.
 
 ## 3. Public repository inventory
 

@@ -159,7 +159,7 @@ It cannot update the user profile or pinned repositories. Do these in the GitHub
 web UI:
 
 1. **Settings → Public profile**
-   - Name: `Piotr Wojczyński`
+   - Name: `pwojczyn`
    - Bio: `Building NieboGuard | Real-Time Systems, Geospatial Data, Cloud & AI | Open Source`
    - Website: `https://nieboguard.pl/`
 2. **Profile → Customize your pins**

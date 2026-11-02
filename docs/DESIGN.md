@@ -91,7 +91,7 @@ with a radar motif) without copying the site layout.
 - System UI stack only:
   `system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif`.
 - No web fonts, no font CDN, no JavaScript.
-- Banner hierarchy: 62 px name, 26 px discipline lines, 18 px project line,
+- Banner hierarchy: 82 px handle, 26 px discipline lines, 18 px project line,
   10 px metadata (in a 1000 × 420 viewBox).
 - README hierarchy: one `h1` (hero), `h2` for sections, `h3` for projects.
 - Body copy stays in native Markdown so GitHub controls theme colours and
