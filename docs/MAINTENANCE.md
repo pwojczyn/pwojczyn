@@ -153,26 +153,29 @@ When updating the checkout action:
 ## Account-level settings (manual)
 
 The current token has `repo`, `read:org`, `gist` and `admin:public_key` scopes.
-It cannot update the user profile or pinned repositories. Do these in the GitHub
-web UI:
+It cannot update the user profile or pinned repositories. GitHub also has no
+public API for changing a user avatar.
+
+Full instructions and bio options: [`PROFILE_SETTINGS.md`](PROFILE_SETTINGS.md).
 
 1. **Settings → Public profile**
    - Name: `pwojczyn`
-   - Bio: `Building NieboGuard | Real-Time Systems, Geospatial Data, Cloud & AI | Open Source`
-   - Website: `https://nieboguard.pl/`
+   - Avatar: upload `assets/avatar.png` (460 × 460, prepared in this repository)
+   - Bio: choose an option from `PROFILE_SETTINGS.md`; the current bio was
+     changed externally to a technology-stack summary and was not overwritten
+   - Website: `https://nieboguard.pl/` (currently `https://nullexa.eu/`)
 2. **Profile → Customize your pins**
    - Pin `pwojczyn/pwojczyn`
    - Pin `pwojczyn/NieboGuard-Community`
    - Optionally keep `HostStats` as earlier full-stack work.
    - Unpin repositories that are no longer representative.
 3. **NieboGuard-Community → About**
-   - Description: use a concise, accurate sentence; keep the “synthetic data /
-     educational” caveat.
-   - Add topics: `aviation`, `open-source`, `geospatial`, `real-time`,
-     `situational-awareness` (the API update in this task already applied the
-     supported set).
+   - The description and topics were updated in this task; keep the “synthetic
+     data / educational” caveat.
    - Do not add `cloudflare` unless the repository actually contains Cloudflare
      configuration.
+   - Do not add Telegram/Facebook/Instagram links until ownership is verified;
+     the Community `data/social-links.json` marks them `NOT_VERIFIED`.
 
 ## Restoring a previous version
 

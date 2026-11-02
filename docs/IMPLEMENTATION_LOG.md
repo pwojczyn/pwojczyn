@@ -159,6 +159,23 @@
   technology-stack summary. This work did not modify account settings. The
   website field still points to `https://nullexa.eu/` and needs manual attention.
 
+## Stage 10 — Avatar and account settings proposal
+
+- **Date:** 2026-11-02
+- **Scope:** prepare a personal avatar and a concrete bio/website/pins proposal
+  without changing account security settings.
+- **Files:** `assets/avatar.svg`, `assets/avatar.png`,
+  `docs/PROFILE_SETTINGS.md`, `docs/DESIGN.md`, `docs/MAINTENANCE.md`,
+  `docs/TODO.md`
+- **Avatar:** 460 × 460 PNG rendered from SVG; personal `p` monogram inside a
+  radar/orbit field; verified legible at 96 px.
+- **Applied automatically:** no. The token lacks the `user` scope and GitHub has
+  no public API for avatar upload. Bio, website, avatar and pins remain manual.
+- **Why:** the account token can write repository contents but cannot update the
+  authenticated user; changing scope or uploading an avatar requires the account
+  owner.
+- **Commit:** recorded in Git history.
+
 ## Commit map
 
 | Commit | Purpose |

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 460" width="460" height="460" role="img" aria-labelledby="avatarTitle avatarDesc">
+  <title id="avatarTitle">pwojczyn — personal developer mark</title>
+  <desc id="avatarDesc">Dark navy square with radar rings, a cyan sweep, an orbit line and a large lowercase p monogram.</desc>
+
+  <defs>
+    <linearGradient id="avatarBg" x1="0" y1="0" x2="460" y2="460" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#060a14"/>
+      <stop offset="0.55" stop-color="#0a1426"/>
+      <stop offset="1" stop-color="#0b1a33"/>
+    </linearGradient>
+    <linearGradient id="avatarMono" x1="150" y1="80" x2="330" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f2f7ff"/>
+      <stop offset="0.55" stop-color="#c7d6ee"/>
+      <stop offset="1" stop-color="#8fb3e6"/>
+    </linearGradient>
+    <linearGradient id="avatarSweep" x1="230" y1="230" x2="380" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#59d7e8" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#59d7e8" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="avatarGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#1b2b4a" stroke-width="0.8"/>
+    </pattern>
+    <clipPath id="avatarClip">
+      <rect width="460" height="460"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#avatarClip)">
+    <rect width="460" height="460" fill="url(#avatarBg)"/>
+    <rect width="460" height="460" fill="url(#avatarGrid)" opacity="0.6"/>
+
+    <!-- radar rings -->
+    <g fill="none" stroke="#4d7bc4" stroke-width="1">
+      <circle cx="230" cy="230" r="66" opacity="0.35"/>
+      <circle cx="230" cy="230" r="124" opacity="0.28"/>
+      <circle cx="230" cy="230" r="182" opacity="0.20"/>
+    </g>
+    <g stroke="#3f66a8" stroke-width="0.8" opacity="0.28">
+      <path d="M230 42V418"/>
+      <path d="M42 230H418"/>
+    </g>
+
+    <!-- radar sweep -->
+    <path d="M230 230 295 52A190 190 0 0 1 408 165Z" fill="url(#avatarSweep)"/>
+    <path d="M230 230 295 52" stroke="#59d7e8" stroke-width="1.2" opacity="0.55"/>
+
+    <!-- orbit -->
+    <g fill="none" stroke="#6f9cff" opacity="0.35">
+      <ellipse cx="230" cy="230" rx="208" ry="92" transform="rotate(-26 230 230)" stroke-width="1" stroke-dasharray="3 7"/>
+    </g>
+
+    <!-- signal points -->
+    <circle cx="342" cy="116" r="4.2" fill="#59d7e8"/>
+    <circle cx="342" cy="116" r="11" fill="none" stroke="#59d7e8" opacity="0.25"/>
+    <circle cx="122" cy="348" r="2.6" fill="#8b7cf6"/>
+    <circle cx="380" cy="330" r="2.2" fill="#6f9cff"/>
+
+    <!-- monogram -->
+    <text x="230" y="306" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="238" font-weight="700" letter-spacing="-2" fill="url(#avatarMono)">p</text>
+
+    <!-- accent -->
+    <rect x="168" y="336" width="124" height="5" rx="2.5" fill="#59d7e8" opacity="0.9"/>
+    <circle cx="230" cy="398" r="2.4" fill="#8b7cf6"/>
+  </g>
+
+  <circle cx="230" cy="230" r="226" fill="none" stroke="#26395e" stroke-width="1.2"/>
+</svg>

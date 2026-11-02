@@ -103,6 +103,7 @@ with a radar motif) without copying the site layout.
 | :--- | :--- |
 | `assets/banner.svg` | Primary hero; local, static, scalable |
 | `assets/banner.png` | Raster fallback rendered from the SVG at 2000 × 840 |
+| `assets/avatar.svg` / `assets/avatar.png` | Personal `p` monogram for the GitHub avatar (460 × 460) |
 | `assets/project-nieboguard.svg` | Public capability map; intentionally generic |
 | `assets/icons/*.svg` | Four 24 px line icons for capability areas |
 | `assets/badges/*.svg` | Local link badges; no shields.io dependency |
@@ -118,6 +119,14 @@ brand mark published at `https://nieboguard.pl/assets/brand-mark.svg`. It is the
 project's own mark and is used here to represent the project. It is embedded
 locally; the profile does not hotlink the website. No third-party stock imagery
 is used.
+
+### Avatar mark
+
+The 460 × 460 avatar is a personal `p` monogram set inside the same radar/orbit
+field as the banner. It is intentionally not a copy of the NieboGuard shield:
+the avatar represents the developer, while the shield represents the product. The
+monogram stays inside GitHub's circular crop and remains legible at 96 px. See
+[`PROFILE_SETTINGS.md`](PROFILE_SETTINGS.md) for upload steps.
 
 ## 8. Theme behaviour
 

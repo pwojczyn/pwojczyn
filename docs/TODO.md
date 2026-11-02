@@ -43,7 +43,11 @@
 
 ## Manual configuration (requires the `user` scope or web UI)
 
+See [`PROFILE_SETTINGS.md`](PROFILE_SETTINGS.md) for exact values and upload steps.
+
 - [x] Display name is already `pwojczyn`.
+- [x] Prepare a 460 × 460 avatar (`assets/avatar.png`, source `assets/avatar.svg`).
+- [ ] Upload the avatar in **Settings → Public profile → Profile picture**.
 - [ ] Review the bio. It was edited externally during the task to a technology
       stack summary; the proposed value is
       `Building NieboGuard | Real-Time Systems, Geospatial Data, Cloud & AI | Open Source`.
