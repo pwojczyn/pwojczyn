@@ -63,18 +63,29 @@ komunikaty źródeł oficjalnych i obserwacje społeczności w jednej czytelnej 
 Projekt łączy potok danych czasu rzeczywistego z interfejsem przeglądarkowym oraz
 publicznymi narzędziami do nauki, testowania i współtworzenia.
 
-| Obszar | Status | Uwagi |
-| :--- | :--- | :--- |
-| Interaktywna mapa na żywo | **Dostępne** | Warstwy lotnicze, strefy przestrzeni powietrznej, zgłoszenia społeczności i widoki historii na [nieboguard.pl](https://nieboguard.pl/) |
-| ADS-B i publiczne źródła danych | **Dostępne** | Publiczne źródła ADS-B oraz dane otwarte/oficjalne; to nie radar i nie zastępstwo źródeł oficjalnych |
-| Zgłoszenia społeczności | **Dostępne** | Obserwacje użytkowników są niezweryfikowane i wyraźnie oddzielone od danych oficjalnych |
-| Historia i analityka | **Dostępne** | Widoki aktywności przestrzeni powietrznej w oknach czasowych |
-| Alerty i powiadomienia | **Dostępne** | Alerty regionalne i aktualizacje źródeł na stronie publicznej; nie oficjalny kanał ostrzegania |
-| Asystent sytuacyjny AI | **Podgląd** | Odpowiada wyłącznie na podstawie publicznego stanu skonfigurowanych źródeł; nie potwierdza zagrożenia |
-| Widok nieba AR / skan nieba | **Podgląd** | Eksperymentalny interfejs dla obiektów w pobliżu i kontekstu horyzontu |
-| Computer vision i AI audio | **Eksperymentalne** | Narzędzia audytowe i tutoriale w repozytorium społeczności |
-| Warstwa danych satelitarnych | **Eksperymentalne** | Publiczna warstwa danych; pokrycie i interpretacja są ograniczone |
-| Klient mobilny | **Wczesna wersja testowa** | Testowy APK podpisany kluczem debug w repozytorium społeczności; nie jest wydaniem sklepowym |
+Status w skrócie:
+
+- **Interaktywna mapa na żywo** — **Dostępne** — Warstwy lotnicze, strefy
+  przestrzeni powietrznej, zgłoszenia społeczności i widoki historii na
+  [nieboguard.pl](https://nieboguard.pl/).
+- **ADS-B i publiczne źródła danych** — **Dostępne** — Publiczne źródła ADS-B oraz
+  dane otwarte/oficjalne; to nie radar i nie zastępstwo źródeł oficjalnych.
+- **Zgłoszenia społeczności** — **Dostępne** — Obserwacje użytkowników są
+  niezweryfikowane i wyraźnie oddzielone od danych oficjalnych.
+- **Historia i analityka** — **Dostępne** — Widoki aktywności przestrzeni
+  powietrznej w oknach czasowych.
+- **Alerty i powiadomienia** — **Dostępne** — Alerty regionalne i aktualizacje
+  źródeł na stronie publicznej; nie oficjalny kanał ostrzegania.
+- **Asystent sytuacyjny AI** — **Podgląd** — Odpowiada wyłącznie na podstawie
+  publicznego stanu skonfigurowanych źródeł; nie potwierdza zagrożenia.
+- **Widok nieba AR / skan nieba** — **Podgląd** — Eksperymentalny interfejs dla
+  obiektów w pobliżu i kontekstu horyzontu.
+- **Computer vision i AI audio** — **Eksperymentalne** — Narzędzia audytowe i
+  tutoriale w repozytorium społeczności.
+- **Warstwa danych satelitarnych** — **Eksperymentalne** — Publiczna warstwa
+  danych; pokrycie i interpretacja są ograniczone.
+- **Klient mobilny** — **Wczesna wersja testowa** — Testowy APK podpisany kluczem
+  debug w repozytorium społeczności; nie jest wydaniem sklepowym.
 
 > **Ważne:** NieboGuard to niezależna platforma informacyjna. **Nie jest**
 > oficjalnym systemem ostrzegania ludności ani kontrolą ruchu lotniczego. Nie

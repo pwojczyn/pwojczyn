@@ -60,18 +60,28 @@ updates and community observations into one readable map. The project combines a
 real-time data pipeline with a browser-based interface and a set of public tools
 for learning, testing and contribution.
 
-| Area | Status | Notes |
-| :--- | :--- | :--- |
-| Live interactive map | **Available** | Aviation layers, airspace zones, community reports and history views on [nieboguard.pl](https://nieboguard.pl/) |
-| ADS-B and public data feeds | **Available** | Public ADS-B sources and official/open data; not a radar and not a replacement for official sources |
-| Community reporting | **Available** | User-submitted observations are unverified and clearly separated from official data |
-| History and analytics | **Available** | Time-window views for recent airspace activity |
-| Alerts and notifications | **Available** | Regional alerts and source updates on the public site; not an official warning channel |
-| AI situation assistant | **Preview** | Answers only from the public state of configured sources; it does not confirm a threat |
-| AR sky view / sky scan | **Preview** | Experimental interface for nearby objects and horizon context |
-| Computer vision and audio AI | **Experimental** | Audit tools and tutorials live in the community repository |
-| Satellite data layer | **Experimental** | Public data layer; coverage and interpretation are limited |
-| Mobile client | **Early test build** | Debug-signed test APK in the community repository; not a store release |
+Status at a glance:
+
+- **Live interactive map** — **Available** — Aviation layers, airspace zones,
+  community reports and history views on [nieboguard.pl](https://nieboguard.pl/).
+- **ADS-B and public data feeds** — **Available** — Public ADS-B sources and
+  official/open data; not a radar and not a replacement for official sources.
+- **Community reporting** — **Available** — User-submitted observations are
+  unverified and clearly separated from official data.
+- **History and analytics** — **Available** — Time-window views for recent
+  airspace activity.
+- **Alerts and notifications** — **Available** — Regional alerts and source
+  updates on the public site; not an official warning channel.
+- **AI situation assistant** — **Preview** — Answers only from the public state
+  of configured sources; it does not confirm a threat.
+- **AR sky view / sky scan** — **Preview** — Experimental interface for nearby
+  objects and horizon context.
+- **Computer vision and audio AI** — **Experimental** — Audit tools and tutorials
+  live in the community repository.
+- **Satellite data layer** — **Experimental** — Public data layer; coverage and
+  interpretation are limited.
+- **Mobile client** — **Early test build** — Debug-signed test APK in the
+  community repository; not a store release.
 
 > **Important:** NieboGuard is an independent information platform. It is **not**
 > an official public warning system and **not** air traffic control. It does not
