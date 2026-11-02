@@ -2,6 +2,11 @@
   <img src="assets/banner.svg" alt="Piotr Wojczyński — software development, real-time systems, geospatial data and AI. Building NieboGuard." width="100%">
 </div>
 
+<p align="center">
+  <strong>Software Development · Real-Time Systems · Geospatial Data · AI</strong><br>
+  Building NieboGuard — open aviation &amp; situational awareness tools
+</p>
+
 # Hi, I'm Piotr
 
 I build web platforms, real-time data systems, geospatial tools and AI-powered applications.

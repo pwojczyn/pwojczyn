@@ -2,6 +2,11 @@
   <img src="../assets/banner.svg" alt="Piotr Wojczyński — software development, systemy czasu rzeczywistego, dane geospatial i AI. Buduje NieboGuard." width="100%">
 </div>
 
+<p align="center">
+  <strong>Software Development · Systemy czasu rzeczywistego · Dane geoprzestrzenne · AI</strong><br>
+  Buduję NieboGuard — otwarte narzędzia dla lotnictwa i świadomości sytuacyjnej
+</p>
+
 # Cześć, jestem Piotr
 
 Buduję platformy webowe, systemy danych czasu rzeczywistego, narzędzia
