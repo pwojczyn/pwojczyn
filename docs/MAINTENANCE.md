@@ -140,7 +140,7 @@ there is no page-level horizontal scroll.
 - no repository secrets;
 - `concurrency` prevents overlapping runs;
 - `timeout-minutes: 10`;
-- `actions/checkout` pinned to the verified v4.2.2 commit SHA;
+- `actions/checkout` pinned to the verified v7.0.1 commit SHA;
 - no third-party actions;
 - no private repository data in API calls or logs;
 - commit only when content changed.
