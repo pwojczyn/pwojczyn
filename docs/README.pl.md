@@ -92,6 +92,20 @@ Status w skrócie:
 > zastępuje Alertów RCB, syren, komunikatów służb ani numeru 112. Dane i
 > zgłoszenia społeczności mogą być opóźnione, niepełne lub niezweryfikowane.
 
+## Poznaj NieboGuard
+
+Publiczne punkty wejścia do platformy:
+
+- [Mapa lotnicza na żywo](https://nieboguard.pl/) — dostępne
+- [Skaner nieba / AR](https://nieboguard.pl/ar/) — podgląd
+- [Zgłoszenia społeczności](https://nieboguard.pl/ar/safety/) — dostępne
+- [Alerty i powiadomienia](https://nieboguard.pl/) — dostępne
+- [Obserwacje lotnicze](https://nieboguard.pl/obserwacje-lotnicze/) — dostępne
+- [Bezpieczna okolica](https://nieboguard.pl/bezpieczne-miejsca/) — dostępne
+- [Asystent AI](https://nieboguard.pl/) — podgląd
+- [Baza wiedzy](https://github.com/pwojczyn/NieboGuard-Community/tree/main/docs/knowledge-base) — dostępne
+- [Protocol Lab](https://github.com/pwojczyn/NieboGuard-Community/tree/main/docs/protocol-lab) — dostępne
+
 ## Open source
 
 ### NieboGuard Community

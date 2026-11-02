@@ -43,34 +43,66 @@ interface that makes the data understandable.
 - **Open-source collaboration** — documentation, examples and maintainable
   public tooling.
 
+## Currently building
+
+### NieboGuard
+
+**An interactive aviation map and situational awareness platform for Poland.**
+
+[Website](https://nieboguard.pl/) · [Community repository](https://github.com/pwojczyn/NieboGuard-Community)
+
+<p align="center">
+  <img src="assets/project-nieboguard.svg" alt="NieboGuard capability map: data sources, cloud processing, real-time visualization and community tools." width="640">
+</p>
+
+NieboGuard brings public aviation data, airspace information, official source
+updates and community observations into one readable map. The project combines a
+real-time data pipeline with a browser-based interface and a set of public tools
+for learning, testing and contribution.
+
+Status at a glance:
+
+- **Live interactive map** — **Available** — Aviation layers, airspace zones,
+  community reports and history views on [nieboguard.pl](https://nieboguard.pl/).
+- **ADS-B and public data feeds** — **Available** — Public ADS-B sources and
+  official/open data; not a radar and not a replacement for official sources.
+- **Community reporting** — **Available** — User-submitted observations are
+  unverified and clearly separated from official data.
+- **History and analytics** — **Available** — Time-window views for recent
+  airspace activity.
+- **Alerts and notifications** — **Available** — Regional alerts and source
+  updates on the public site; not an official warning channel.
+- **AI situation assistant** — **Preview** — Answers only from the public state
+  of configured sources; it does not confirm a threat.
+- **AR sky view / sky scan** — **Preview** — Experimental interface for nearby
+  objects and horizon context.
+- **Computer vision and audio AI** — **Experimental** — Audit tools and tutorials
+  live in the community repository.
+- **Satellite data layer** — **Experimental** — Public data layer; coverage and
+  interpretation are limited.
+- **Mobile client** — **Early test build** — Debug-signed test APK in the
+  community repository; not a store release.
+
+> **Important:** NieboGuard is an independent information platform. It is **not**
+> an official public warning system and **not** air traffic control. It does not
+> replace RCB alerts, sirens, emergency-service messages or 112. Data and
+> community reports may be delayed, incomplete or unverified.
+
 ## Explore NieboGuard
 
-| Feature | URL | Status |
-|---------|-----|--------|
-| 🌐 Live Aviation Map | https://nieboguard.pl/ | ✅ Available |
-| 📷 Sky Scanner / AR | https://nieboguard.pl/ar/ | ✅ Preview |
-| 📝 Community Reports | https://nieboguard.pl/ar/safety/ | ✅ Available |
-| 🔔 Alerts & Notifications | https://nieboguard.pl/ | ✅ Available |
-| 🗺️ Aircraft Explorer | https://nieboguard.pl/obserwacje-lotnicze/ | ✅ Available |
-| 💾 Safe Neighborhood | https://nieboguard.pl/bezpieczne-miejsca/ | ✅ Available |
-| 🧠 AI Assistant | https://nieboguard.pl/ | ✅ Preview |
-| 📊 Knowledge Base | https://github.com/pwojczyn/NieboGuard-Community/tree/main/docs/knowledge-base | ✅ Available |
-| 🛠️ Protocol Lab | https://github.com/pwojczyn/NieboGuard-Community/tree/main/docs/protocol-lab | ✅ Available |
+Public entry points on the platform:
 
-## Social media
+- [Live aviation map](https://nieboguard.pl/) — available
+- [Sky scanner / AR](https://nieboguard.pl/ar/) — preview
+- [Community reports](https://nieboguard.pl/ar/safety/) — available
+- [Alerts and notifications](https://nieboguard.pl/) — available
+- [Aircraft explorer](https://nieboguard.pl/obserwacje-lotnicze/) — available
+- [Safe neighborhood](https://nieboguard.pl/bezpieczne-miejsca/) — available
+- [AI assistant](https://nieboguard.pl/) — preview
+- [Knowledge base](https://github.com/pwojczyn/NieboGuard-Community/tree/main/docs/knowledge-base) — available
+- [Protocol Lab](https://github.com/pwojczyn/NieboGuard-Community/tree/main/docs/protocol-lab) — available
 
-| Platform | Link | Status |
-|----------|------|--------|
-| 🌐 Website | https://nieboguard.pl/ | ✅ Verified 2026-11-02 |
-| 💻 GitHub | https://github.com/pwojczyn | ✅ Verified |
-| 📦 GitHub Community | https://github.com/pwojczyn/NieboGuard-Community | ✅ Verified |
-| 🌐 Telegram | https://t.me/NieboGuard | ✅ Verified |
-| 📘 Facebook | https://www.facebook.com/nieboguard | ✅ Verified |
-| 📸 Instagram | https://www.instagram.com/nieboguard/ | ✅ Verified |
-
-**Note:** YouTube, X/Twitter and TikTok profiles not found on official website — need manual verification.
-
----
+## Open source
 
 ### NieboGuard Community
 
