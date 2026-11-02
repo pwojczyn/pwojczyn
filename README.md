@@ -86,8 +86,9 @@ What is public today:
 
 - **Sensor Hub** — an adapter-driven server for aviation and sensor data, with
   ADS-B parsing, ASTERIX CAT021/048/062 encoders, SQLite storage and REST/
-  WebSocket interfaces. It is under active development; some adapters are still
-  stubs and several components are encoder-only.
+  WebSocket interfaces. It is under active development: authentication and rate
+  limiting are incomplete, full storage→API→WebSocket integration is partial,
+  and ASTERIX support is encoder-only.
 - **Protocol Knowledge Base** — public notes, sources and a compatibility matrix
   for ADS-B, ASTERIX and related formats.
 - **Simulator and Protocol Lab** — synthetic traffic, replay, virtual radar and
