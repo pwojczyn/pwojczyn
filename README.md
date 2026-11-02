@@ -61,6 +61,7 @@ for learning, testing and contribution.
 | ADS-B and public data feeds | **Available** | Public ADS-B sources and official/open data; not a radar and not a replacement for official sources |
 | Community reporting | **Available** | User-submitted observations are unverified and clearly separated from official data |
 | History and analytics | **Available** | Time-window views for recent airspace activity |
+| Alerts and notifications | **Available** | Regional alerts and source updates on the public site; not an official warning channel |
 | AI situation assistant | **Preview** | Answers only from the public state of configured sources; it does not confirm a threat |
 | AR sky view / sky scan | **Preview** | Experimental interface for nearby objects and horizon context |
 | Computer vision and audio AI | **Experimental** | Audit tools and tutorials live in the community repository |

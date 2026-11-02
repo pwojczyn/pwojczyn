@@ -64,6 +64,7 @@ publicznymi narzędziami do nauki, testowania i współtworzenia.
 | ADS-B i publiczne źródła danych | **Dostępne** | Publiczne źródła ADS-B oraz dane otwarte/oficjalne; to nie radar i nie zastępstwo źródeł oficjalnych |
 | Zgłoszenia społeczności | **Dostępne** | Obserwacje użytkowników są niezweryfikowane i wyraźnie oddzielone od danych oficjalnych |
 | Historia i analityka | **Dostępne** | Widoki aktywności przestrzeni powietrznej w oknach czasowych |
+| Alerty i powiadomienia | **Dostępne** | Alerty regionalne i aktualizacje źródeł na stronie publicznej; nie oficjalny kanał ostrzegania |
 | Asystent sytuacyjny AI | **Podgląd** | Odpowiada wyłącznie na podstawie publicznego stanu skonfigurowanych źródeł; nie potwierdza zagrożenia |
 | Widok nieba AR / skan nieba | **Podgląd** | Eksperymentalny interfejs dla obiektów w pobliżu i kontekstu horyzontu |
 | Computer vision i AI audio | **Eksperymentalne** | Narzędzia audytowe i tutoriale w repozytorium społeczności |
