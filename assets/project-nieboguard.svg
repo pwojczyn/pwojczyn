@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img" aria-labelledby="projectTitle projectDesc">
+  <title id="projectTitle">NieboGuard — public project overview</title>
+  <desc id="projectDesc">A schematic showing four general capability areas: data sources, cloud processing, real-time visualization and community tools. NieboGuard is an independent information platform, not an official warning or air traffic control system.</desc>
+
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="640" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#070c18"/>
+      <stop offset="0.6" stop-color="#0a1426"/>
+      <stop offset="1" stop-color="#0c1a31"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6f9cff"/>
+      <stop offset="0.6" stop-color="#8b7cf6"/>
+      <stop offset="1" stop-color="#59d7e8"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.1" fill="#20365c" opacity="0.75"/>
+    </pattern>
+    <clipPath id="cardClip">
+      <rect width="640" height="480" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cardClip)">
+    <rect width="640" height="480" fill="url(#cardBg)"/>
+    <rect width="640" height="480" fill="url(#dots)"/>
+
+    <!-- decorative radar field -->
+    <g fill="none" stroke="#4d7bc4" stroke-width="0.9" opacity="0.16">
+      <circle cx="558" cy="262" r="54"/>
+      <circle cx="558" cy="262" r="108"/>
+      <circle cx="558" cy="262" r="154"/>
+      <path d="M558 108v308M404 262h308"/>
+    </g>
+    <g fill="#59d7e8" opacity="0.55">
+      <circle cx="586" cy="220" r="2"/>
+      <circle cx="510" cy="312" r="1.7"/>
+      <circle cx="620" cy="286" r="1.5"/>
+    </g>
+
+    <!-- header -->
+    <g transform="translate(36 34)">
+      <path d="M10 1.8 17 5v5.1c0 4.3-3 7.1-7 9-4-1.9-7-4.7-7-9V5Z" fill="#16305c" stroke="#6f9cff" stroke-width="0.9"/>
+      <circle cx="10" cy="8.6" r="2.7" fill="none" stroke="#dbe8ff" stroke-width="0.9"/>
+      <path d="M10 8.6 13 6.9M10 8.6 7.3 10.7M10 8.6v2.7" fill="none" stroke="#dbe8ff" stroke-width="0.8" stroke-linecap="round"/>
+    </g>
+    <text x="70" y="54" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#f2f7ff">NieboGuard</text>
+    <text x="70" y="76" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" letter-spacing="1.4" fill="#93a7c4">OPEN AVIATION &amp; SITUATIONAL AWARENESS</text>
+
+    <g>
+      <rect x="454" y="34" width="150" height="28" rx="14" fill="#0f1d36" stroke="#2b4066"/>
+      <circle cx="470" cy="48" r="3.2" fill="#59d7e8"/>
+      <text x="482" y="52" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#c7d6ee">nieboguard.pl</text>
+    </g>
+
+    <line x1="36" y1="98" x2="604" y2="98" stroke="#1e3152" stroke-width="1"/>
+
+    <!-- pipeline -->
+    <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+      <!-- connector -->
+      <line x1="58" y1="128" x2="58" y2="392" stroke="#243a60" stroke-width="1.4"/>
+      <g fill="#0a1426" stroke="#6f9cff" stroke-width="1.2">
+        <circle cx="58" cy="128" r="5"/>
+        <circle cx="58" cy="194" r="5"/>
+        <circle cx="58" cy="260" r="5"/>
+        <circle cx="58" cy="326" r="5"/>
+      </g>
+
+      <!-- row 1 -->
+      <text x="86" y="126" font-size="10" font-weight="700" letter-spacing="1.8" fill="#6f9cff">01 · DATA SOURCES</text>
+      <text x="86" y="151" font-size="19" font-weight="600" fill="#eaf2ff">ADS-B, public feeds &amp; reports</text>
+      <text x="86" y="170" font-size="11" fill="#8fa3c2">Aircraft, weather, airspace and community observations</text>
+
+      <!-- row 2 -->
+      <text x="86" y="192" font-size="10" font-weight="700" letter-spacing="1.8" fill="#7f8cf4">02 · CLOUD PROCESSING</text>
+      <text x="86" y="217" font-size="19" font-weight="600" fill="#eaf2ff">Streaming &amp; data enrichment</text>
+      <text x="86" y="236" font-size="11" fill="#8fa3c2">Normalisation, geospatial context and event handling</text>
+
+      <!-- row 3 -->
+      <text x="86" y="258" font-size="10" font-weight="700" letter-spacing="1.8" fill="#8b7cf6">03 · REAL-TIME VISUALIZATION</text>
+      <text x="86" y="283" font-size="19" font-weight="600" fill="#eaf2ff">Interactive map &amp; alerts</text>
+      <text x="86" y="302" font-size="11" fill="#8fa3c2">Live view, history, filters and situational context</text>
+
+      <!-- row 4 -->
+      <text x="86" y="324" font-size="10" font-weight="700" letter-spacing="1.8" fill="#59d7e8">04 · COMMUNITY TOOLS</text>
+      <text x="86" y="349" font-size="19" font-weight="600" fill="#eaf2ff">Docs, SDKs &amp; synthetic data</text>
+      <text x="86" y="368" font-size="11" fill="#8fa3c2">Open documentation, examples and volunteer resources</text>
+    </g>
+
+    <line x1="36" y1="404" x2="604" y2="404" stroke="#1e3152" stroke-width="1"/>
+    <rect x="36" y="422" width="60" height="3" rx="1.5" fill="url(#line)"/>
+
+    <text x="36" y="452" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="9.5" fill="#6f87aa">Independent information platform. Not an official warning system or air traffic control.</text>
+    <text x="604" y="452" text-anchor="end" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="9" letter-spacing="1.2" fill="#4f678c">PUBLIC OVERVIEW</text>
+  </g>
+
+  <rect x="1" y="1" width="638" height="478" rx="17" fill="none" stroke="#26395e" stroke-width="1"/>
+</svg>

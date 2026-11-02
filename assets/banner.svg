@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="1000" height="420" role="img" aria-labelledby="bannerTitle bannerDesc">
+  <title id="bannerTitle">Piotr Wojczyński — Software Development, Real-Time Systems, Geospatial Data and AI</title>
+  <desc id="bannerDesc">Dark navy banner with a radar grid, orbit lines, a civilian aircraft silhouette and the text: Building NieboGuard, open aviation and situational awareness tools.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#060a14"/>
+      <stop offset="0.55" stop-color="#0a1426"/>
+      <stop offset="1" stop-color="#0b1a33"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(820 210) rotate(90) scale(260)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3d6fd0" stop-opacity="0.35"/>
+      <stop offset="0.55" stop-color="#2a4a91" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#0a1426" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="64" y1="0" x2="330" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6f9cff"/>
+      <stop offset="0.6" stop-color="#8b7cf6"/>
+      <stop offset="1" stop-color="#59d7e8"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="820" y1="210" x2="970" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#59d7e8" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#59d7e8" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1b2b4a" stroke-width="0.8"/>
+    </pattern>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <clipPath id="frame">
+      <rect width="1000" height="420" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="420" fill="url(#bg)"/>
+    <rect width="1000" height="420" fill="url(#grid)" opacity="0.55"/>
+    <circle cx="820" cy="210" r="270" fill="url(#glow)"/>
+
+    <!-- radar rings -->
+    <g fill="none" stroke="#4d7bc4" stroke-width="1">
+      <circle cx="820" cy="210" r="48" opacity="0.28"/>
+      <circle cx="820" cy="210" r="96" opacity="0.22"/>
+      <circle cx="820" cy="210" r="144" opacity="0.17"/>
+      <circle cx="820" cy="210" r="190" opacity="0.13"/>
+    </g>
+    <g stroke="#3f66a8" stroke-width="0.8" opacity="0.22">
+      <path d="M820 20V400"/>
+      <path d="M630 210H1000"/>
+      <path d="M686 76 954 344"/>
+      <path d="M954 76 686 344"/>
+    </g>
+
+    <!-- radar sweep -->
+    <path d="M820 210 915 45.5A190 190 0 0 1 998.5 145Z" fill="url(#sweep)"/>
+    <path d="M820 210 915 45.5" stroke="#59d7e8" stroke-width="1.3" opacity="0.55"/>
+
+    <!-- orbit / trajectory lines -->
+    <g fill="none" stroke="#6f9cff" stroke-width="1" opacity="0.35">
+      <ellipse cx="820" cy="210" rx="268" ry="118" transform="rotate(-24 820 210)" stroke-dasharray="3 7"/>
+      <ellipse cx="820" cy="210" rx="228" ry="86" transform="rotate(18 820 210)" stroke-dasharray="2 9" opacity="0.6"/>
+    </g>
+    <path d="M648 356C690 320 700 250 706 156" fill="none" stroke="#59d7e8" stroke-width="1.2" stroke-dasharray="4 6" opacity="0.45"/>
+
+    <!-- civilian aircraft silhouette -->
+    <g transform="translate(706 148) rotate(-24) scale(1.15)" fill="#dbe8ff" opacity="0.92">
+      <path d="M0-22 4-7 25-2 25 3 4 4 3 15 10 20 10 23 0 20-10 23-10 20-3 15-4 4-25 3-25-2-4-7Z"/>
+      <path d="M0-22V20" stroke="#8fb3e6" stroke-width="0.8" opacity="0.55"/>
+    </g>
+
+    <!-- signal points -->
+    <g fill="#59d7e8">
+      <circle cx="940" cy="88" r="2.6"/>
+      <circle cx="962" cy="322" r="2.2"/>
+      <circle cx="640" cy="86" r="2"/>
+      <circle cx="760" cy="360" r="2.4"/>
+      <circle cx="900" cy="250" r="1.8"/>
+    </g>
+    <g fill="none" stroke="#59d7e8" opacity="0.18">
+      <circle cx="940" cy="88" r="8"/>
+      <circle cx="962" cy="322" r="7"/>
+      <circle cx="760" cy="360" r="7"/>
+    </g>
+
+    <!-- abstract map contours -->
+    <g fill="none" stroke="#31517f" stroke-width="0.9" opacity="0.28">
+      <path d="M560 380C610 352 632 330 688 338S790 372 860 356 944 318 1000 330"/>
+      <path d="M580 402C640 378 670 360 720 368S812 396 878 382 950 352 1000 360"/>
+    </g>
+
+    <!-- identity -->
+    <g>
+      <g transform="translate(64 44) scale(0.95)">
+        <path d="M12 2.4 20 6v5.5c0 5-3.4 8.2-8 10.4-4.6-2.2-8-5.4-8-10.4V6Z" fill="#16305c" stroke="#6f9cff" stroke-width="1"/>
+        <circle cx="12" cy="10.3" r="3.15" fill="none" stroke="#dbe8ff" stroke-width="1"/>
+        <path d="M12 10.3 15.5 8.4M12 10.3 8.8 12.7M12 10.3v3.2" fill="none" stroke="#dbe8ff" stroke-width="0.9" stroke-linecap="round"/>
+        <circle cx="12" cy="10.3" r="0.8" fill="#f4f8ff"/>
+      </g>
+      <text x="98" y="64" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="3" fill="#9fb6d9">NIEBOGUARD</text>
+      <text x="352" y="64" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="10" letter-spacing="2" fill="#5f789f">OPEN AVIATION TOOLS</text>
+    </g>
+
+    <text x="64" y="168" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="0.2" fill="#f2f7ff">Piotr Wojczyński</text>
+    <rect x="66" y="192" width="84" height="3" rx="1.5" fill="url(#accent)"/>
+
+    <text x="64" y="238" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#c7d6ee">Software Development · Real-Time Systems</text>
+    <text x="64" y="272" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#c7d6ee">Geospatial Data · AI</text>
+
+    <line x1="66" y1="302" x2="612" y2="302" stroke="#1e3152" stroke-width="1"/>
+
+    <text x="64" y="337" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#8fb3e6">Building NieboGuard — Open Aviation &amp; Situational Awareness Tools</text>
+
+    <text x="64" y="384" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="10" letter-spacing="2.4" fill="#5f789f">OPEN SOURCE · REAL-TIME · GEOSPATIAL · AI</text>
+  </g>
+
+  <rect x="1" y="1" width="998" height="418" rx="17" fill="none" stroke="#26395e" stroke-width="1"/>
+</svg>
