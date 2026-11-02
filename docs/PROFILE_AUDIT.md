@@ -113,8 +113,8 @@ descriptions, code, infrastructure details and activity are not published.
 | Visibility | Public |
 | Description | “NieboGuard Community — open-source Sensor Hub, ASTERIX/ADS-B simulator & protocol knowledge base. All data synthetic (simulated=true), educational only.” |
 | Homepage | `https://nieboguard.pl/` |
-| Default branch | `community/bootstrap` |
-| Other branches | `main`, `docs/knowledge-hub` |
+| Default branch | `main` (during the initial audit it was `community/bootstrap`; the repository was updated externally during this task) |
+| Other branches | `community/bootstrap`, `docs/knowledge-hub` |
 | README | Present on both branches, but different documents |
 | License | MIT |
 | Issues | Enabled; 0 open issues at audit time |
@@ -126,27 +126,28 @@ descriptions, code, infrastructure details and activity are not published.
 
 ### Documentation findings
 
-1. **Default branch mismatch.** The repository default is
-   `community/bootstrap`, whose README is a Polish community bootstrap. `main`
-   contains a newer English README and additional files (`INSTALL.md`,
-   `ARCHITECTURE.md`, `CHANGELOG.md`, `ROADMAP.md`, `simulator/`, etc.). Visitors
-   landing on the repository see the older branch unless they switch manually.
-2. **Stage count inconsistency.** The README says “ALL 11 STAGES COMPLETE” and
-   then lists 12 stages. `CONTRIBUTING.md` repeats the “stages 1-11” wording while
+> **Concurrent update:** while this profile work was in progress, `main` advanced
+> and became the default branch. The points below describe the initial audit and
+> their current status. No user work was overwritten.
+
+1. **Default branch mismatch — resolved externally.** The default is now `main`.
+   `community/bootstrap` remains available but is no longer the landing branch.
+2. **Stage count inconsistency — partially resolved.** The current `README.md`
+   refers to stages 1–12, but `CONTRIBUTING.md` still says “stages 1-11” while
    listing 12.
-3. **License filename.** The `main` README says “See `LICENSE.md`”, but the file
-   is named `LICENSE`.
-4. **Docker quick start.** The `main` README shows
-   `docker build -t nieboguard-community .`, but there is no root `Dockerfile`.
-   A Dockerfile exists under `node/`, so the command as written will fail.
+3. **License filename — resolved.** The current README points to `LICENSE`.
+4. **Docker quick start — still needs care.** The current README shows
+   `docker-compose up -d` without a root compose file; the compose file and
+   Dockerfile are under `node/`. Run the command from that directory or add a
+   root compose file.
 5. **Public/experimental boundary is good.** The README explicitly states that
    production code, secrets, VPS configuration and user data are not published.
    This must be preserved.
-6. **Topics are partly aligned.** Current topics: `adsb`, `asterix`,
-   `community`, `educational`, `go`, `military-simulation`, `sensor-hub`,
-   `simulator`, `polish-english`, `protocol-lab`. Missing useful discovery terms:
-   `aviation`, `open-source`, `geospatial`, `real-time`, `situational-awareness`.
-   `cloudflare` is **not** supported by the repository content and was not added.
+6. **Topics are now aligned.** Current topics include `adsb`, `asterix`,
+   `aviation`, `community`, `educational`, `geospatial`, `go`, `open-source`,
+   `polish-english`, `protocol-lab`, `real-time`, `sensor-hub`, `simulator` and
+   `situational-awareness`. `cloudflare` is **not** supported by the repository
+   content and was not added.
 
 ## 5. Website audit — `nieboguard.pl`
 
@@ -195,7 +196,6 @@ as the project's own mark, with its source recorded in
 | P0 | Bio and website are outdated | Visitors see a generic technology list and `nullexa.eu`, not NieboGuard |
 | P1 | Pinned repositories are old 2017 projects | The most relevant work is not the first thing visitors see |
 | P1 | No automated, trustworthy statistics | Any manual numbers would drift or be invented |
-| P1 | Community repository default branch mismatch | Public documentation shown by default is older than `main` |
 | P2 | Many public repos lack descriptions/topics | Repository tab looks unfinished |
 | P2 | Dead legacy demo link (`web-server-nodejs` → Heroku 404) | Minor credibility issue |
 | P2 | No link from nieboguard.pl to the Community repository | Lost community discovery path |
