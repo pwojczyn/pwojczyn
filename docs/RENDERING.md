@@ -27,7 +27,8 @@ case.
 
 ## Checks performed
 
-- Banner loaded at every viewport (natural size 1000 × 420).
+- Banner loaded at every viewport (natural size 1000 × 420) and shows the
+  `pwojczyn` handle.
 - Project capability map loaded (natural size 640 × 480).
 - Badges and icons loaded; no broken image and no failed request for
   `github.com/pwojczyn`, `camo.githubusercontent.com`,
@@ -42,6 +43,8 @@ case.
   list (the 3-column table was 51 px too wide at 360 px).
 - Light and dark modes both render; the artwork is self-contained and does not
   depend on theme colours.
+- The final README was re-verified after integrating a concurrent edit and
+  restoring the featured-project section: all checks passed again.
 
 ## Observations
 
