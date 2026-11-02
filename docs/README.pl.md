@@ -186,7 +186,7 @@ jako praca własna.
 | Publiczne repozytoria | **30** |
 | Publiczne projekty źródłowe | **27** |
 | Na GitHubie od | **2017** |
-| Najczęstsze języki* | **JavaScript · HTML · CSS · Java · Python** |
+| Najczęstsze języki* | **JavaScript · HTML · CSS · Java · Go** |
 | Ostatnia aktualizacja | **2026-11-02** |
 
 <sub>* Według bajtów języka w publicznych repozytoriach niebędących forkami.</sub>
