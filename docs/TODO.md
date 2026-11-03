@@ -53,9 +53,8 @@ See [`PROFILE_SETTINGS.md`](PROFILE_SETTINGS.md) for exact values and upload ste
       `Building NieboGuard | Real-Time Systems, Geospatial Data, Cloud & AI | Open Source`.
       Keep the current version if it is intentional.
 - [ ] Set website to `https://nieboguard.pl/` (currently `https://nullexa.eu/`).
-- [ ] Review public social links; add only confirmed, public profiles. The
-      Telegram/Facebook/Instagram links added by a concurrent edit were removed
-      because the Community `data/social-links.json` marks them NOT_VERIFIED.
+- [x] Add the confirmed Telegram channel, bot and group to the profile.
+- [ ] Add Facebook or Instagram only after explicit ownership confirmation.
 - [ ] Pin `pwojczyn/pwojczyn` and `pwojczyn/NieboGuard-Community`.
 - [ ] Unpin repositories that no longer represent current work.
 - [x] Apply the recommended topics/description to `NieboGuard-Community`
@@ -83,8 +82,7 @@ See [`PROFILE_SETTINGS.md`](PROFILE_SETTINGS.md) for exact values and upload ste
   progress. No user work was overwritten and no force push was used.
 - A concurrent commit (`ee08d4a`) added an Explore section and an unverified
   social-media table to the profile README. The Explore links were kept; the
-  social table was removed because the Community `data/social-links.json` marks
-  those profiles NOT_VERIFIED.
+  table was later replaced by explicitly confirmed Telegram links.
 - The public GitHub bio was changed externally during the task to a technology
   stack summary. This work did not modify account settings.
 - The community description and topics were updated through the API in this

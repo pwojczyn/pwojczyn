@@ -176,6 +176,16 @@
   owner.
 - **Commit:** recorded in Git history.
 
+## Follow-up 2026-11-03 — Telegram links
+
+- The maintainer confirmed the official Telegram channel
+  (<https://t.me/NieboGuard>), bot (`@NieboGuardBot`, “NieboGuard Map”) and
+  community group (<https://t.me/nieboguardcommunity>, “NieboGuard Społeczność”).
+- Added a Telegram badge and a Telegram section to both profile READMEs.
+- All three links returned HTTP 200 on 2026-11-03.
+- Facebook/Instagram remain out of the profile until ownership is explicitly
+  confirmed.
+
 ## Commit map
 
 | Commit | Purpose |

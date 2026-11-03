@@ -20,6 +20,7 @@ actually use.
   <a href="https://github.com/pwojczyn"><img src="assets/badges/github.svg" alt="GitHub profile" height="32"></a>
   <a href="https://nieboguard.pl/"><img src="assets/badges/website.svg" alt="NieboGuard website" height="32"></a>
   <a href="https://github.com/pwojczyn/NieboGuard-Community"><img src="assets/badges/community.svg" alt="NieboGuard Community repository" height="32"></a>
+  <a href="https://t.me/NieboGuard"><img src="assets/badges/telegram.svg" alt="NieboGuard Telegram channel" height="32"></a>
 </p>
 
 <p align="center"><strong>English</strong> · <a href="docs/README.pl.md">Polski</a></p>
@@ -234,6 +235,12 @@ I'm interested in projects involving:
 
 Open an issue in [NieboGuard Community](https://github.com/pwojczyn/NieboGuard-Community/issues)
 or use the [contact page](https://nieboguard.pl/contact).
+
+## Telegram
+
+- **Channel:** [@NieboGuard](https://t.me/NieboGuard)
+- **App / bot:** [@NieboGuardBot](https://t.me/NieboGuardBot)
+- **Community group:** [@nieboguardcommunity](https://t.me/nieboguardcommunity)
 
 ---
 

@@ -95,16 +95,22 @@ No change is required. The banner and profile README also use this handle.
 
 ## Social links
 
-Do **not** add Telegram, Facebook or Instagram yet. The public
-`NieboGuard-Community/data/social-links.json` marks those profiles as
-`NOT_VERIFIED` and explicitly says not to invent URLs. Add a social link only
-after confirming ownership from an official source.
+Telegram links confirmed by the maintainer on 2026-11-03:
 
-Verified links that are already used in the README:
+- Channel: <https://t.me/NieboGuard>
+- App / bot: <https://t.me/NieboGuardBot> (`NieboGuard Map`)
+- Community group: <https://t.me/nieboguardcommunity> (`NieboGuard Społeczność`)
+
+The website source also links Facebook and Instagram. They are not added to the
+profile until ownership is explicitly confirmed for those accounts. Do not add
+YouTube, X/Twitter or TikTok; they were not found on the official site.
+
+Verified links used in the README:
 
 - Website: <https://nieboguard.pl/>
 - GitHub: <https://github.com/pwojczyn>
 - Community: <https://github.com/pwojczyn/NieboGuard-Community>
+- Telegram: channel, bot and group above
 
 ## Pinned repositories
 
@@ -124,4 +130,5 @@ setting; there is no supported API mutation for it.
 - [ ] Set website to `https://nieboguard.pl/`.
 - [ ] Pin `pwojczyn/pwojczyn` and `pwojczyn/NieboGuard-Community`.
 - [ ] Review old pinned repositories.
-- [ ] Add social links only after verification.
+- [x] Add the confirmed Telegram channel, bot and group to the profile README.
+- [ ] Add Facebook or Instagram only after explicit ownership confirmation.

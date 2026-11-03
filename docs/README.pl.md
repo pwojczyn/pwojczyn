@@ -22,6 +22,7 @@ używać.
   <a href="https://github.com/pwojczyn"><img src="../assets/badges/github.svg" alt="Profil GitHub" height="32"></a>
   <a href="https://nieboguard.pl/"><img src="../assets/badges/website.svg" alt="Strona NieboGuard" height="32"></a>
   <a href="https://github.com/pwojczyn/NieboGuard-Community"><img src="../assets/badges/community.svg" alt="Repozytorium NieboGuard Community" height="32"></a>
+  <a href="https://t.me/NieboGuard"><img src="../assets/badges/telegram.svg" alt="Kanał Telegram NieboGuard" height="32"></a>
 </p>
 
 <p align="center"><a href="../README.md">English</a> · <strong>Polski</strong></p>
@@ -239,6 +240,12 @@ Interesują mnie projekty związane z:
 
 Otwórz zgłoszenie w [NieboGuard Community](https://github.com/pwojczyn/NieboGuard-Community/issues)
 lub skorzystaj ze [strony kontaktowej](https://nieboguard.pl/contact).
+
+## Telegram
+
+- **Kanał:** [@NieboGuard](https://t.me/NieboGuard)
+- **Aplikacja / bot:** [@NieboGuardBot](https://t.me/NieboGuardBot)
+- **Grupa społeczności:** [@nieboguardcommunity](https://t.me/nieboguardcommunity)
 
 ---
 
