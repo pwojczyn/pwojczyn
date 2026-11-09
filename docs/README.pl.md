@@ -220,7 +220,7 @@ jako praca własna.
 | Publiczne projekty źródłowe | **27** |
 | Na GitHubie od | **2017** |
 | Najczęstsze języki* | **JavaScript · HTML · CSS · Java · Go** |
-| Ostatnia aktualizacja | **2026-11-02** |
+| Ostatnia aktualizacja | **2026-11-09** |
 
 <sub>* Według bajtów języka w publicznych repozytoriach niebędących forkami.</sub>
 <!-- STATS:END -->
