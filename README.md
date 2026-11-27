@@ -39,6 +39,8 @@ interface that makes the data understandable.
 - **Aviation data** — ADS-B processing, airspace context and protocol tooling.
 - **AI-assisted processing** — computer vision, audio analysis and LLM-assisted
   workflows, always with human review.
+- **Federation SDK / ngf:1** — public transport node client (JS/Python), integration with `docs/FEDERATION.md`.
+- **Security** — no plaintext tokens, CI dependency/static scan, agent integration, deploy/dist artifacts.
 - **Automation and developer tooling** — scripts, SDKs, CI and reproducible
   environments.
 - **Open-source collaboration** — documentation, examples and maintainable
