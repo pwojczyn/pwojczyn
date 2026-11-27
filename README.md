@@ -50,7 +50,7 @@ interface that makes the data understandable.
 
 **An interactive aviation map and situational awareness platform for Poland.**
 
-[Website](https://nieboguard.pl/) · [Community repository](https://github.com/pwojczyn/NieboGuard-Community)
+[Website](https://nieboguard.pl/) · [Community repository](https://github.com/pwojczyn/NieboGuard-Community) · [Telegram Channel](https://t.me/NieboGuard) (✅ Zweryfikowane)
 
 <p align="center">
   <img src="assets/project-nieboguard.svg" alt="NieboGuard capability map: data sources, cloud processing, real-time visualization and community tools." width="640">
